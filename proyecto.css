@@ -9,6 +9,15 @@ h1{
     font-size: 8ch;
     font-family: 'Edwardian Script ITC';
 }
+
+h2{
+    color: #c76c2d;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 8ch;
+    font-family: 'Edwardian Script ITC';
+}
 input{
     display: block;
     margin: auto;
@@ -20,7 +29,6 @@ input{
 
 
 .question {
-    background: #fbe5d6;
     border-radius: 1rem;
     box-shadow: 0 5px 15px black;
     padding: 1rem 1rem 0 2rem;
@@ -77,4 +85,8 @@ input{
 }
 .show-text .plus-icon {
     display: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
